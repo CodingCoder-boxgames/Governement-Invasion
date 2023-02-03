@@ -9,3 +9,4 @@
  4. there you can find the .exe file 
  
  GOODLUCK BEATING THE GAME !!!
+ ( it's not that hard ) 
