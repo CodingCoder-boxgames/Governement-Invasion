@@ -1,0 +1,5 @@
+
+
+WIDTH = 1100
+HEIGHT = 700
+FPS = 60
