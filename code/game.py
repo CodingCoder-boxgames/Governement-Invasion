@@ -37,11 +37,13 @@ class Game:
                 self.player.stone.reset_stone()
 
         if self._level == 10:
-            self.player.stone.rect = self.player.stone.stone_img.get_rect(topleft = (self.player.stone.position_x, self.player.stone.position_y))
             if len(self.level.static_birds) == 0 and len(self.level.dynamic_birds) == 0:
                 self.ui.show_last = True
+                
                 self.can_throw_stone = False
-            else: self.ui.show_last = False
+            else: 
+                self.ui.show_last = False
+                self.can_throw_stone = True
 
         self.bird.draw_birds(self.player, self.level)
         self.player.draw_player()
